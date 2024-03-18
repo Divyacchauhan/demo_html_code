@@ -1,0 +1,193 @@
+*{
+    box-sizing:border-box ;
+    margin: 0px;
+    padding: 0px;
+}
+.a{
+    text-decoration: none;
+}
+.categoryItem{
+   list-style: none;
+}
+body{
+    font-family: 'barlow',sans-serif;
+    
+}
+h1{
+    font-family:'lobstter',cursive  ;
+}
+.headertop{
+    background-color: #514a4a;
+    padding: 5px;
+    font-size: 14px;
+}
+.headertop a{
+    color: #fff;
+}
+.top-left{
+    display: flex;
+    margin: 0px;
+    align-items: center;
+    height: 100%;
+}
+.top-left a{
+    color: #fff;
+    margin: 0 10px;
+}
+.headertop i {
+   color: rgb(147, 130, 130);
+}
+.topRight{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.socialicon {
+      margin-left: 15px;
+}
+.socialicon a{
+    color:#fff;
+    margin: 4px;
+    font-size: 20px;
+}
+.headtop a{
+    color: #fff;
+}
+.headerNav li.nav-item .nav-link{
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0 10px;
+
+ }
+.searchForm{
+     width: 50%;
+}
+ .rightSide{
+    margin-left: 3rem;
+   
+ }
+ .rightSide a {
+    display: inline-block;
+    color: #fff;
+    margin: 0 10px;
+    font-size: 1.2rem;
+ }
+
+ .headerNav a.navbar-brand{
+    color: #fff;
+    font-family: 'lobster',cursive;
+    font-size: 2.5rem;
+ }
+ .headerNav{
+    padding: 20px 0;
+    background-color: #b5b21a;
+ }
+ .bannerContent h1{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ .sellarBanner {
+    background:  url(grosary.png) no-repeat ;
+    min-height: 375px;
+    background-size: cover;
+    background-position:;
+   
+    
+ }
+ .BannerContent p{
+     font-size: 16px;
+     font-weight: 600;
+     line-height: 30px;
+ }
+ .bannerContent{
+    padding: 50px 0;
+ }
+ .bannerContent h1{
+    font-size: 60px;
+ }
+ .sellerContenet{
+    padding: 12px 0;
+    background: #f1f1f1;
+ }
+ .leftSidebar{
+    background: #fff;
+    padding: 18px;
+ }
+ .category{
+    text-align: center;
+    background: #bebebe;
+    padding: 8px;
+ }
+ .accordion-header{
+    padding: 0px 0 0;
+    font-weight: 600;
+    color: #666;
+    font-size: 15px;
+ }
+ .categorySubList{
+    padding: 10px 15px;
+ }
+ .categoryItem{
+    border-bottom: 1px solid #f0ecec;
+    padding: 10px 0;
+ }
+ .categoryItem a{
+   color: #000;
+   font-size: 15px;
+ }
+ .deliveryBanner{
+   padding: 10px;
+ }
+ .deliveryBanner h6{
+   font-weight: 600;
+ }
+ .deliveryBanner p{
+   margin-bottom: 0;
+ }
+ .productThumb{
+   background:#fff;
+ }
+ .productThumb .card{
+   margin: 20px 0;
+ }
+.productThumb-img{
+   text-align: center;
+   padding:10px ;
+}
+ .card-img-top{
+   width: auto;
+   max-width: 100%;
+   height:auto;
+ }
+ .card-title{
+   text-align: center;
+ }
+ .amount{
+   margin: 20px 0;
+ }
+ .disable-amount{
+   text-decoration: line-through;
+   color: #ccc;
+   margin-left:10px ;
+ }
+ .qty span{
+   background-color:#ccc ;
+   font-size: 20px;
+   font-weight: 700;
+   padding: 5px;
+   cursor: pointer;
+   border: 1px solid #ccc;
+   width: 26px;
+   text-align:center;
+   height: 30px;
+   line-height: 15px;
+ }
+ .qty input{
+   width: 40px;
+   padding: 0 5px;
+   text-align: center;
+   border:1px solid #ccc ;
+ }
+ .add-card{
+   background-color: #4caf50;
+   border-color: #4caf50;
+ }
